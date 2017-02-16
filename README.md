@@ -1,4 +1,15 @@
 # JavaScript - Apontamentos
+## Operadores Matemáticos
+| Operador | Definição |
+| ------ | ------ |
+| + | Soma |
+| - | Subtração |
+| * | Multiplicação |
+| / | Divisão |
+| % | Resto |
+| ++ | Incremento + 1|
+| -- | Decremento -1 |
+
 ## Operadores de Comparação
 | Operador | Definição |
 | ------ | ------ |
