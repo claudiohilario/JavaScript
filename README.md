@@ -1,7 +1,7 @@
 # JavaScript - Apontamentos
 
 ## Operadores de Atribuição
-| Plugin | README |
+| Operador | Definição |
 | ------ | ------ |
 | += | Soma |
 | -= | Subtração |
