@@ -67,3 +67,14 @@ if (Condição1) {
     Executa se a Condição 1 e a Condição 2 forem falsas
 }
 ```
+```js
+switch(Expressao) {
+    case n:
+        bloco de codigo
+        break;
+    case n:
+        bloco de codigo
+        break;
+    default:
+        bloco de codigo
+} 
