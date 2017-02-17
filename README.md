@@ -37,3 +37,33 @@
 | *= | Multiplicação |
 | /= | Divisão |
 | %= | Resto |
+
+## Extruturas Condicionais
+  - if
+  - else
+  - else if
+  - switch
+
+```js
+if (condição) {
+    Executa se a condição for verdadeira
+} 
+```
+
+```js
+if (condição) {
+    Executa se a condição for verdadeira
+}else{
+    Executa se a condição for falsa
+}
+```
+
+```js
+if (Condição1) {
+    Executa se a Condição1 for verdadeira
+}else if(Condição 2){
+    Executa se a Condição2 for verdadeira e a Condição 1 for falsa
+}else{
+    Executa se a Condição 1 e a Condição 2 forem falsas
+}
+```
