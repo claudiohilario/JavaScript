@@ -3,10 +3,11 @@
 ## Pedidos Ajax (Animação em modo sync e async)
 Exemplo de animação enquanto um pedido via ajax é feito.
 Quando é sync (Define-se um timeout):
+Sendo que showIndicator(); é para mostrar a animeção e hideIndicator() para esconder;
 ```js
 function getAccessToken(dados){
     //Requesição Ajax:
-    KOApp.showIndicator();
+    showIndicator();
     var token = "";
 
     setTimeout(function () {
@@ -20,7 +21,7 @@ function getAccessToken(dados){
 
             success: function (resposta) {
                 token = JSON.parse(resposta);
-                KOApp.hideIndicator();
+                hideIndicator();
 
             },
             error: function () {
@@ -37,7 +38,7 @@ Quando é async:
 ```js
 function getAccessToken(dados){
     //Requesição Ajax:
-    KOApp.showIndicator();
+    showIndicator();
     var token = "";
 
         $.ajax({
@@ -48,7 +49,7 @@ function getAccessToken(dados){
 
             success: function (resposta) {
                 token = JSON.parse(resposta);
-                KOApp.hideIndicator();
+                hideIndicator();
 
             },
             error: function () {
