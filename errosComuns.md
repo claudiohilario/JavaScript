@@ -1,7 +1,8 @@
-## Erros Comuns
+# Erros Comuns
 Exemplo de animação enquanto um pedido via ajax é feito.
 Quando é sync (Define-se um timeout):
 
+## Pedidos Ajax (Animação em modo sync e async)
 ```js
 function getAccessToken(dados){
     //Requesição Ajax:
